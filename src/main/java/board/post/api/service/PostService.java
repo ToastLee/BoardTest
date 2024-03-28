@@ -18,7 +18,7 @@ public class PostService {
 
     @Autowired
     private PostRepository postRepository;
-
+//
     public PostDTO create(PostDTO postDTO) {
         Post post = new Post();
         post.setTitle(postDTO.getTitle());

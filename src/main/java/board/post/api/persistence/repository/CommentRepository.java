@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface CommentRepository extends JpaRepository<Comment, Long> {
 
     // 댓글 등록
-    Comment save(Comment comment);
+    Comment save(Comment comment);//
 
     // 댓글 수정
     // JpaRepository에서 제공하는 save 메서드를 사용하여 댓글 수정이 처리됩니다.

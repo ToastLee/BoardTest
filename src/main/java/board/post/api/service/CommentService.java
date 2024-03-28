@@ -34,7 +34,7 @@ public class CommentService {
             commentRepository.save(comment);
         }
     }
-
+//
     // 댓글 삭제
     public void delete(Long id) {
         // id에 해당하는 댓글 조회

@@ -13,7 +13,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class PostController {
     private final PostService postService;
-
+//
     // 게시글 등록
     @PostMapping
     public void create(@RequestBody PostDTO postDTO) {

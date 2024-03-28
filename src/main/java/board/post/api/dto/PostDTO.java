@@ -3,7 +3,7 @@ package board.post.api.dto;
 import java.util.List;
 
 public class PostDTO {
-
+//
     private Long id; // 게시글의 고유 식별자
     private String title; // 게시글 제목
     private String content; // 게시글 내용
